@@ -1,9 +1,9 @@
 
-export const Buttons = () => {
+export const Buttons = ({ incrementar, decrementar}) => {
   return (
     <div>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement} >Decrementar</button> 
+      <button onClick={incrementar}>Increment</button>
+      <button onClick={decrementar}>Decrementar</button> 
     </div>
   )
 }
